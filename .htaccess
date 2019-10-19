@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+    Options Indexes FollowSymLinks ExecCGI
+    RewriteEngine on
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)index(.*)$ $1index.php?$2
+</IfModule>

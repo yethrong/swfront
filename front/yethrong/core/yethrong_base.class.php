@@ -19,10 +19,9 @@ namespace yethrong\core {
 		 * @return
 		 */
 		public static function display(string $contro = null, string $model = null, string $views = null, ...$param) {
-		    
 			if ($return = self::P ( DIR_FRONT, $contro, $model )) return $return;
-			
 			else return self::C ( $contro, $model, $views, ...$param );
+			return true;
 		}
 	}
 }

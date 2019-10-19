@@ -1,0 +1,47 @@
+array (size=47)
+  'APPS_DEBUG' => boolean false
+  'APPS_PATCH' => string 'home/' (length=5)
+  'DEL_SEPARATOR' => string '/' (length=1)
+  'DIR_FRAM' => string '/usr/WebSites/front/yethrong/' (length=29)
+  'HACK_ATTEMPT' => string '&#34429;&#28982;&#22269;&#38469;&#31354;&#38388;&#31449;&#26377;&#32593;&#32476;&#36830;&#25509;&#65292;&#20294;&#24037;&#20316;&#20154;&#21592;&#38750;&#24120;&#25285;&#24515;&#36825;&#26679;&#20250;&#25307;&#33268;&#20005;&#37325;&#30340;&#20449;&#24687;&#20002;&#22833;&#44;&#35831;&#25353;&#27491;&#24120;&#30340;&#25805;&#20316;&#37325;&#35797;&#65292;&#35874;&#35874;&#65281;' (length=381)
+  'DIR_PATH' => string '/usr/WebSites/front/' (length=20)
+  'FRAM_NAME' => string 'yethrong/' (length=9)
+  'ENGINE_NAME' => string 'Smarty/' (length=7)
+  'ENGINE_ET_AUTOLOAD' => int 0
+  'CACHE_NUMS' => int 5
+  'CACHE_TIME' => int 3600
+  'CACHE_APPS' => boolean false
+  'CACHE_FILE' => boolean false
+  'CACHE_TABLE' => boolean false
+  'COOKIE_TIME' => int 3600
+  'CODE_MODE' => string 'utf-8' (length=5)
+  'URLS_TYPE' => int 3
+  'LINK_DATA' => int 1
+  'LANG_MODE' => string 'CN' (length=2)
+  'WEBS_ROOT' => string 'front/' (length=6)
+  'WEBS_APPS' => string 'front/home/' (length=11)
+  'WEBS_DATA' => string 'front/home/data/' (length=16)
+  'WEBS_CONFIG' => string 'front/home/config/' (length=18)
+  'WEBS_PLUGINS' => string 'front/home/plugins/' (length=19)
+  'WEBS_TEMPLATE' => string 'front/home/template/' (length=20)
+  'WEBS_RESOURES' => string 'front/home/resoure/' (length=19)
+  'DIR_ROOT' => string '/usr/WebSites//' (length=15)
+  'DIR_FRONT' => string '/usr/WebSites/front/home/' (length=25)
+  'DIR_DATA' => string '/usr/WebSites/front/home/data/' (length=30)
+  'DIR_CONFIG' => string '/usr/WebSites/front/home/config/' (length=32)
+  'DIR_PLUGINS' => string '/usr/WebSites/front/home/plugins/' (length=33)
+  'DIR_TEMPLATE' => string '/usr/WebSites/front/home/template/' (length=34)
+  'DIR_RESOURES' => string '/usr/WebSites/front/home/resoure/' (length=33)
+  'DIR_CONTROLL' => string '/usr/WebSites/front/home/control/' (length=33)
+  'DIR_MODEL' => string '/usr/WebSites/front/home/model/' (length=31)
+  'DIR_VIEWS' => string '/usr/WebSites/front/home/views/' (length=31)
+  'DIR_LOGS' => string '/usr/WebSites/front/home/Logs/' (length=30)
+  'DIR_CACHE' => string '/usr/WebSites/front/home/cache/' (length=31)
+  'DIR_COMPILE' => string '/usr/WebSites/front/home/compile/' (length=33)
+  '_DEBUG' => boolean true
+  'SMARTY_DIR' => string '/usr/WebSites/front/yethrong/engine/Smarty/' (length=43)
+  'SMARTY_SYSPLUGINS_DIR' => string '/usr/WebSites/front/yethrong/engine/Smarty/sysplugins/' (length=54)
+  'SMARTY_PLUGINS_DIR' => string '/usr/WebSites/front/yethrong/engine/Smarty/plugins/' (length=51)
+  'SMARTY_MBSTRING' => boolean true
+  'SMARTY_RESOURCE_CHAR_SET' => string 'UTF-8' (length=5)
+  'SMARTY_RESOURCE_DATE_FORMAT' => string '%b %e, %Y' (length=9)

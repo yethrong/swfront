@@ -1,0 +1,17 @@
+<?php
+use yethrong\core\modular\yethrong_model;
+
+/**
+ * 
+ * @author 周立志
+ *
+ */
+class model extends yethrong_model {
+	/**
+	 * 数据模块初始化函数
+	 * @param string $table       数据表名
+	 * @param string $primary_id  字段主键ID
+	 */
+	public function coms(string $views = null, string $table = null, int $primaryid = 0){
+	}
+}

@@ -2,8 +2,7 @@
 
 namespace yethrong\core {
 
-	if (! defined ( 'DIR_FRAM' ))
-		die ( HACK_ATTEMPT );
+	if (! defined ( 'DIR_FRAM' )) die ( HACK_ATTEMPT );
 	
 	/**
 	 *

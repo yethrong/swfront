@@ -44,7 +44,7 @@ namespace yethrong {
 
 	/**
 	 *
-	 * @var 应用程序目录
+	 * @abstract 应用程序目录
 	 */
 	define ( 'DIR_FRONT', DIR_PATH . APPS_PATCH );
 
@@ -76,6 +76,7 @@ namespace yethrong {
 		 * @return yethrong
 		 */
 		public static function run(string $control = null, string $model = null, string $views = null, ...$param) {
+            
 			if (! self::$yethrong) {
 				self::$yethrong = new self ();
 			}

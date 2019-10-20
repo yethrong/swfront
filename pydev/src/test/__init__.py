@@ -1,2 +1,2 @@
-print('asdfasdf');
-print('asdfasdf');
+#coding : UTF-8
+print("asdfasdf");

@@ -1,4 +1,27 @@
-            <!--BEGIN SIDEBAR MENU-->
+<?php
+/* Smarty version 3.1.33, created on 2019-10-20 22:32:33
+  from '/var/www/html/front/home/template/groupseting/meta.tpl' */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '3.1.33',
+  'unifunc' => 'content_5dac7001497ee7_18858453',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    'c03280ed2eda9e92c79a7e2f380d2c74307b0f5d' => 
+    array (
+      0 => '/var/www/html/front/home/template/groupseting/meta.tpl',
+      1 => 1571581621,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_5dac7001497ee7_18858453 (Smarty_Internal_Template $_smarty_tpl) {
+?>            <!--BEGIN SIDEBAR MENU-->
             <nav id="sidebar" role="navigation" class="navbar-default navbar-static-side" >
                <div id="form-layouts" class="sidebar-collapse menu-scroll " style="height: auto;margin-top: -50px;">
                             <ul class="nav ul-edit nav-tabs responsive">
@@ -254,4 +277,5 @@
                        </div>
                    </div>
             </div>
-            <!--END MODAL CONFIG PORTLET-->
+            <!--END MODAL CONFIG PORTLET--><?php }
+}

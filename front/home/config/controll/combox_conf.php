@@ -47,7 +47,7 @@ namespace yethrong\config
                     array('end' => 'div', 'controltype' => 'subcontrol'),
             array('groupend' => 'div' , 'controltype' => 'subcontrol'),
                     array('controlid' => 304, 'controltype' => 'subcontrol','subname' => 'select','subtitle' => '元件属性' ,'fixed' => 2 ,
-                            'name'                      => array('controlid' => 3041, 'caption' => '名称属性' , 'controltype' => 'name', 'fixed' => 1 , 'value' => 'column'),/*多选*/
+                            //'name'                      => array('controlid' => 3041, 'caption' => '名称属性' , 'controltype' => 'name', 'fixed' => 1 , 'value' => 'column'),/*多选*/
                             'targetfieldstype'          => array('controlid' => 3042, 'caption' => '字段类型', 'controltype' => 'fieldetypelist',  'fixed' => 1 , 'value' => '0'),/*多选*/
                             'targetfieldsnull'          => array('controlid' => 3043, 'caption' => '是否必填' ,'controltype' => 'bool', 'fixed' => 1 , 'value' => '0'),/*多选*/
                             'targetfieldsindex'         => array('controlid' => 3044, 'caption' => '主键索引' , 'controltype' => 'bool', 'fixed' => 1 , 'value' => '0'),/*多选*/

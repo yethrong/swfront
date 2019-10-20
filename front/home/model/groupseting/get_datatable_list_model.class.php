@@ -22,8 +22,8 @@ class get_datatable_list_model extends model{
 		$this->view = $viewobj;
 	}
 	public function get_tableList() {
-	    $sdss='';
-	    $result = array();
+	   $sdss='';
+	   $result = array();
 	   $this->stateMent = $this->prepare ( 'SHOW TABLES' );
 	   $redata = $this->stateMent->fetchAll(PDO::FETCH_COLUMN);
 	   $result ['rec_object'] = $_POST['rec_object'];

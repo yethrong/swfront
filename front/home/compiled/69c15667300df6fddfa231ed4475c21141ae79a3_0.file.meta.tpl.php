@@ -1,4 +1,27 @@
-            <!--BEGIN SIDEBAR MENU-->
+<?php
+/* Smarty version 3.1.33, created on 2019-10-20 22:32:45
+  from '/var/www/html/front/home/template/frontseting/meta.tpl' */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '3.1.33',
+  'unifunc' => 'content_5dac700d856404_91793685',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    '69c15667300df6fddfa231ed4475c21141ae79a3' => 
+    array (
+      0 => '/var/www/html/front/home/template/frontseting/meta.tpl',
+      1 => 1570850369,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_5dac700d856404_91793685 (Smarty_Internal_Template $_smarty_tpl) {
+?>            <!--BEGIN SIDEBAR MENU-->
             <nav id="sidebar" role="navigation" class="navbar-default navbar-static-side" >
                <div id="form-layouts" class="sidebar-collapse menu-scroll " style="height: auto;margin-top: -50px;">
                             <ul class="nav ul-edit nav-tabs responsive">
@@ -10,7 +33,7 @@
 	                <div style="background: transparent; border: 0; box-shadow: none !important; margin: 5px;margin-top: -12px !important;" class="tab-content pan mtl mbn responsive">
 		                    <div id="tab-form-actions" class="tab-pane fade active in">
 		                       	<ul id="side-menu" class="nav " style="list-style-type:none;"><li></li>
-			                        <li><a href="#"><i class="fa fa-desktop fa-fw"></i><span class="menu-title">基本元件</span><span class="fa arrow"></span></a>
+			                        <li><a href="#"><i class="fa fa-desktop fa-fw"><div class="icon-bg bg-pink"></div></i><span class="menu-title">基本元件</span><span class="fa arrow"></span></a>
 			                            <ul class="nav nav-second-level in">
 			                                <li><a href="#" class = "controlmang" controlvale="progress"><i class="fa fa-columns"></i><span class="submenu-title">进  度  条</span></a>  </li>
 			                                <li><a href="#" class = "controlmang" controlvale="delimiter"><i class="fa fa-link"></i><span class="submenu-title">分  隔  符</span></a> </li>
@@ -151,7 +174,7 @@
 																 </tr>
 					                                            <tr>
 					                                                <td>表单页头</td>
-					                                                 <td><a id="selframhead" href="#" data-type="select" data-value="1" data-title="设置表单页头" class="editable editable-click workselfram" data-original-title="" title=""></a></td>
+					                                                 <td><a id="selframhead" href="#" data-type="select" data-value="0" data-title="设置表单页头" class="editable editable-click workselfram" data-original-title="" title=""></a></td>
 					                                            </tr>
 					                                            <tr id = "selframcolor_tr">
 					                                                <td>标题颜色</td>
@@ -162,11 +185,11 @@
 																 </tr>
 					                                            <tr id = "selframmin_tr">
 					                                                <td>缩小按钮</td>
-					                                                <td><a id="selframmin" href="#" data-type="select" data-value="1" data-title="设置按钮状态" class="editable editable-click workselfram" data-original-title="" title=""></a></td>
+					                                                <td><a id="selframmin" href="#" data-type="select" data-value="0" data-title="设置按钮状态" class="editable editable-click workselfram" data-original-title="" title=""></a></td>
 					                                            </tr>
 					                                            <tr id = "selframclose_tr">
 					                                                <td>关闭按钮</td>
-					                                                <td><a id="selframclose" href="#" data-type="select" data-value="1"  data-title="设置按钮状态" class="editable editable-click workselfram" data-original-title="" title=""></a></td>
+					                                                <td><a id="selframclose" href="#" data-type="select" data-value="0"  data-title="设置按钮状态" class="editable editable-click workselfram" data-original-title="" title=""></a></td>
 					                                            </tr>
 					                                            <tr id = "selframbtnlist_tr">
 					                                                <td>设置按钮</td>
@@ -174,11 +197,11 @@
 					                                            </tr>
 					                                            <tr id = "selframreflash_tr">
 					                                                <td>刷新按钮</td>
-					                                                <td><a id ="selframreflash" href="#" data-type="select" data-value="0"  data-title="设置按钮状态" class="editable editable-click" data-original-title="" title=""></a></td>
+					                                                <td><a id ="selframreflash" href="#" data-type="select" data-value=""  data-title="设置按钮状态" class="editable editable-click" data-original-title="" title=""></a></td>
 					                                            </tr>
 					                                            <tr id = "selframfullScreen_tr">
 					                                                <td>全屏按钮</td>
-					                                                <td><a id="selframfullScreen" href="#" data-type="select" data-value="0" data-title="设置按钮状态" class="editable editable-click workselfram" data-original-title="" title=""></a></td>
+					                                                <td><a id="selframfullScreen" href="#" data-type="select" data-value="1" data-title="设置按钮状态" class="editable editable-click workselfram" data-original-title="" title=""></a></td>
 					                                            </tr>
 					                                        </tbody>
 					                                    </table>
@@ -254,4 +277,5 @@
                        </div>
                    </div>
             </div>
-            <!--END MODAL CONFIG PORTLET-->
+            <!--END MODAL CONFIG PORTLET--><?php }
+}

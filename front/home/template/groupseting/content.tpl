@@ -27,7 +27,6 @@
                              <!--END TITLE & BREADCRUMB PAGE-->
 			                <div class="clearfix page-content"  id = "pageContent">
 				                <div class="row" id = "rowContent">
-									<!--BEGIN CONTENT-->
 									<div id = "controlpanel" class="portlet box portlet-blue ">
 										<div id = "controlpanelhead" class="portlet-header small">
 											<div class="caption">表单名称</div>
@@ -40,12 +39,14 @@
 												<i id="controltoolsclose" class="fa"></i>
 											</div>
 										</div>
-										<div id="formvalidatesignup" class="portlet-body">
-											<!-- <form action="formvalidateupdate.html" class="form-validate"> </form> -->
+										<div class="portlet-body">
+											<!--BEGIN CONTENT-->
+											<form id="formvalidatesignup" action="formvalidateupdate.html" class="form-validate">
+											</form>
+											<!--END CONTENT-->
 										</div>
 										<div class="clearfix"></div>
 									</div>
-									<!--END CONTENT-->
 				                </div>
 			                  </div>           
                          </div>

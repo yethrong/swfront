@@ -9,7 +9,7 @@ namespace yethrong\config
                 'formcursor' => array('controlid' => 162, 'controltype' => 'cusetlist', 'fixed' => 1 , 'value' => 'form-cursor'),
             ),
         ),
-            array('controlid' => 18, 'controltype' => 'subcontrol','subname' => 'label','subtitle' => '标题样式' ,'fixed' => 2 ,  'groupstart' => true,
+            array('controlid' => 18, 'controltype' => 'subcontrol','subname' => 'label','fixed' => 2 ,  'groupstart' => true,
                         array('controlid' => 181, 'controltype' => 'subcontrol' ,'subname' => 'class',
                             'caption'            => array('controlid' => 1811, 'controltype' => 'text',  'fixed' => 1 , 'value' => 'caption'),/*标题样式：control-label*/
                             'labelclasslist'     => array('controlid' => 1812, 'controltype' => 'cusetlist',  'fixed' => 1 , 'value' => 'control-label'),/*标题样式：control-label*/

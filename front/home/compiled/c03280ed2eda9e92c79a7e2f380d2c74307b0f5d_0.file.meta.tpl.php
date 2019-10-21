@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-10-20 22:32:33
+/* Smarty version 3.1.33, created on 2019-10-25 22:08:52
   from '/var/www/html/front/home/template/groupseting/meta.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5dac7001497ee7_18858453',
+  'unifunc' => 'content_5db301f47294a4_14813982',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'c03280ed2eda9e92c79a7e2f380d2c74307b0f5d' => 
     array (
       0 => '/var/www/html/front/home/template/groupseting/meta.tpl',
-      1 => 1571581621,
+      1 => 1572005435,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5dac7001497ee7_18858453 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5db301f47294a4_14813982 (Smarty_Internal_Template $_smarty_tpl) {
 ?>            <!--BEGIN SIDEBAR MENU-->
             <nav id="sidebar" role="navigation" class="navbar-default navbar-static-side" >
                <div id="form-layouts" class="sidebar-collapse menu-scroll " style="height: auto;margin-top: -50px;">
@@ -277,5 +277,6 @@ function content_5dac7001497ee7_18858453 (Smarty_Internal_Template $_smarty_tpl)
                        </div>
                    </div>
             </div>
-            <!--END MODAL CONFIG PORTLET--><?php }
+            <!--END MODAL CONFIG PORTLET-->
+            <?php }
 }

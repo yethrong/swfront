@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-10-20 22:32:28
+/* Smarty version 3.1.33, created on 2019-10-25 22:08:52
   from '/var/www/html/front/home/template/frontseting/menu.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5dac6ffc7c1ec1_89127913',
+  'unifunc' => 'content_5db301f46ba0e5_81532683',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '7d8e82081e7193e3120d24d1f504f2ac96b7b8a7' => 
     array (
       0 => '/var/www/html/front/home/template/frontseting/menu.tpl',
-      1 => 1570363947,
+      1 => 1572005384,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5dac6ffc7c1ec1_89127913 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5db301f46ba0e5_81532683 (Smarty_Internal_Template $_smarty_tpl) {
 ?>        <!--BEGIN BACK TO TOP-->
         	<a id="totop" href="#"><i class="fa fa-angle-up"></i></a>
         <!--END BACK TO TOP-->

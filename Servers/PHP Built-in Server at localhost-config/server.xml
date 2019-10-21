@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Server>
+	<Port name="HTTP/1.1" protocol="HTTP">8011</Port>
+<PathMapping local="/sfront" module="sfront" remote="/var/www/html/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/htdocs/sfront"/><PathMapping local="/front" module="front" remote="/var/www/html/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/htdocs/front"/></Server>

@@ -1273,7 +1273,7 @@ hr {
     display: block;
     position: absolute;
     top: 50px;
-    right: 55px;
+    right: 45px;
     width: 195px;
 }
 .right-side-collapsed .navbar-static-side ul#side-menu li.nav-hover ul.nav-second-level li a {
@@ -1288,7 +1288,7 @@ hr {
 .right-side-collapsed .navbar-static-side ul#side-menu li a span.menu-title {
     position: absolute;
     top: 0;
-    right: 55px;
+    right: 45px;
     padding: 15px;
     margin-right: 0;
     background: #e74c3c;
@@ -1300,7 +1300,7 @@ hr {
     display: none;
     position: absolute;
     top: 50px;
-    right: 55px;
+    right: 45px;
     width: 195px;
 }
 .right-side-collapsed .navbar-static-side ul#side-menu li ul.nav-second-level li a i {

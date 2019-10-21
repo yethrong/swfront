@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+		 xmlns="http://xmlns.jcp.org/xml/ns/javaee" 
+		 xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" 
+		 id="WebApp_ID" version="3.1">
+  <display-name>jsptest</display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <!-- 配置servlet -->
+  <servlet>
+	  <servlet-name>demo1</servlet-name>
+	  <!--Servlet的类-->
+	  <servlet-class>cn.items.web.servlet.servletdemo</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+	  <servlet-name>demo1</servlet-name> 
+	  <!--映射的url路径 -->              
+	  <url-pattern>/demo1</url-pattern>
+  </servlet-mapping>	
+</web-app>

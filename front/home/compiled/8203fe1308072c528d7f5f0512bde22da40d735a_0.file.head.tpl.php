@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-10-20 22:32:28
+/* Smarty version 3.1.33, created on 2019-10-22 23:59:46
   from '/var/www/html/front/home/template/frontseting/head.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5dac6ffc7b69e4_34772709',
+  'unifunc' => 'content_5daf2772a03466_17508046',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5dac6ffc7b69e4_34772709 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5daf2772a03466_17508046 (Smarty_Internal_Template $_smarty_tpl) {
 ?>    <title>智慧应用云平台</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">

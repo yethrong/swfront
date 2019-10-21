@@ -29,20 +29,20 @@ namespace yethrong\includes {
 		 * @var array
 		 */
 		const expstring = array (
-				'eq' => '=',
-				'neq' => '<>',
-				'gt' => '>',
-				'egt' => '>=',
-				'lt' => '<',
-				'elt' => '<=',
-				'notlike' => 'NOT LIKE',
-				'like' => 'LIKE',
-				'in' => 'IN',
-				'notin' => 'NOT IN',
-				'not in' => 'NOT IN',
-				'between' => 'BETWEEN',
-				'not between' => 'NOT BETWEEN',
-				'notbetween' => 'NOT BETWEEN'
+			'eq' => '=',
+			'neq' => '<>',
+			'gt' => '>',
+			'egt' => '>=',
+			'lt' => '<',
+			'elt' => '<=',
+			'notlike' => 'NOT LIKE',
+			'like' => 'LIKE',
+			'in' => 'IN',
+			'notin' => 'NOT IN',
+			'not in' => 'NOT IN',
+			'between' => 'BETWEEN',
+	        'notbetween' => 'NOT BETWEEN',
+			'not between' => 'NOT BETWEEN',
 		);
 		/**
 		 *

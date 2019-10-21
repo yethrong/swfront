@@ -144,13 +144,13 @@ namespace yethrong\includes {
 			$connected = $connected && (!empty ( $rootsuser )   || !empty ( self::$configDB ["DB_USER"] ));
 			//$connected = $connected && (!empty ( $rootspass )   || !empty ( self::$configDB ["DB_PASS"] ));
 			
-			$hostname = $hostname ?? self::$configDB ['DB_HOST'];
-			$dataname = $dataname ?? self::$configDB ['DB_NAME'];
+			$hostname  = $hostname ?? self::$configDB ['DB_HOST'];
+			$dataname  = $dataname ?? self::$configDB ['DB_NAME'];
 			$rootsuser = $rootsuser ?? self::$configDB ['DB_USER'];
 			$rootspass = $rootspass ?? self::$configDB ['DB_PASS'];
 			$hostport = self::$configDB ['DB_PORT'] ?? '';
 			$datachar = self::$configDB ['DB_CHAR'] ??'UTF8';
-			$datatype =self::$configDB ['DB_TYPE'] ?? 'mysql';
+			$datatype = self::$configDB ['DB_TYPE'] ?? 'mysql';
 			$dataopen = self::$configDB ['DB_OPEN'] ?? array (\PDO::ATTR_AUTOCOMMIT => 1,\PDO::ATTR_DEFAULT_FETCH_MODE => \PDO::FETCH_ASSOC);
 			$dsn = $datatype . ":host={$hostname}{$hostport};dbname={$dataname}";
 			
@@ -178,9 +178,8 @@ namespace yethrong\includes {
 		public function prepare(string $SQL = null, array $parames = null) {
 			return $this->execute ( $SQL, $parames );
 		}
-
+		
 		/**
-		 *
 		 * @param string $SQL
 		 * @param string $result_type
 		 * @return \PDOstateMent
@@ -224,7 +223,7 @@ namespace yethrong\includes {
 		/**
 		 *
 		 * @param mixed $fields 字段字符或数组
-		 * @param bool $link 	false(默认) fields与value为分别的字符串，true fields = value
+		 * @param bool $link false(默认) fields与value为分别的字符串，true fields = value
 		 * @return self
 		 */
 		public function field($fields, bool $link = false) {

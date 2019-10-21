@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-10-20 22:32:33
+/* Smarty version 3.1.33, created on 2019-10-25 20:07:35
   from '/var/www/html/front/home/template/groupseting/content.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5dac7001492673_07970709',
+  'unifunc' => 'content_5db2e587ba4997_81193320',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'f1beef1ec80f97d7c9183dc858ec9724dfb41681' => 
     array (
       0 => '/var/www/html/front/home/template/groupseting/content.tpl',
-      1 => 1571219800,
+      1 => 1572005173,
       2 => 'file',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:./meta.tpl' => 1,
   ),
 ),false)) {
-function content_5dac7001492673_07970709 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5db2e587ba4997_81193320 (Smarty_Internal_Template $_smarty_tpl) {
 ?>        <div id="wrapper" class="right-sidebar">
 			<?php $_smarty_tpl->_subTemplateRender('file:./meta.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 ?>
@@ -54,7 +54,6 @@ function content_5dac7001492673_07970709 (Smarty_Internal_Template $_smarty_tpl)
                              <!--END TITLE & BREADCRUMB PAGE-->
 			                <div class="clearfix page-content"  id = "pageContent">
 				                <div class="row" id = "rowContent">
-									<!--BEGIN CONTENT-->
 									<div id = "controlpanel" class="portlet box portlet-blue ">
 										<div id = "controlpanelhead" class="portlet-header small">
 											<div class="caption">表单名称</div>
@@ -67,12 +66,14 @@ function content_5dac7001492673_07970709 (Smarty_Internal_Template $_smarty_tpl)
 												<i id="controltoolsclose" class="fa"></i>
 											</div>
 										</div>
-										<div id="formvalidatesignup" class="portlet-body">
-											<!-- <form action="formvalidateupdate.html" class="form-validate"> </form> -->
+										<div class="portlet-body">
+											<!--BEGIN CONTENT-->
+											<form id="formvalidatesignup" action="formvalidateupdate.html" class="form-validate">
+											</form>
+											<!--END CONTENT-->
 										</div>
 										<div class="clearfix"></div>
 									</div>
-									<!--END CONTENT-->
 				                </div>
 			                  </div>           
                          </div>

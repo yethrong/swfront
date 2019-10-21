@@ -20,7 +20,7 @@ initeditable = function () {
         "alwaysVisible": true
     });
     $('#menu-toggle').click(function(){
-        console.log($('#form-layouts').css('overflow'));
+        //console.log($('#form-layouts').css('overflow'));
         if($('#form-layouts').css('overflow') == 'hidden')  {
         	$('#form-layouts-sub2').css('display','initial');
         }else{
@@ -229,9 +229,7 @@ initeditable = function () {
             i, val, params = searchString.split("&");
         for (i = 0; i < params.length; i++) {
             val = params[i].split("=");
-            if (val[0] == name) {
-                return unescape(val[1]);
-            }
+            if (val[0] == name) {return unescape(val[1]);}
         }
         return null;
     }

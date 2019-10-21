@@ -201,8 +201,7 @@ namespace yethrong\core {
 		 * @return boolean
 		 */
 		public static function checkpath(string $moudetype, string $filepath, string $filename) {
-			$return = FALSE;
-
+		    $return = FALSE;
 			$dirsty = DIR_FRONT . $moudetype . DEL_SEPARATOR . $filepath;
 			$dested = $dirsty . DEL_SEPARATOR . $filename . '_' . $moudetype . '.class.php';
 			if($moudetype == 'template' || $moudetype == 'content') {

@@ -89,16 +89,15 @@ namespace yethrong\library {
 		 * @var http://web/index/demo/das/234/345/423.html
 		 * @return mixed
 		 */
-		private static function getStatic(string $REQUEST_URI = null) {
+		private static function getStatic(string $REQUEST_URI = null) {		 
 			if (empty ( $REQUEST_URI )) {
 				$PHP_SELF = filter_input ( INPUT_SERVER, 'PHP_SELF' );
 				$REQUEST_URI = filter_input ( INPUT_SERVER, 'REQUEST_URI' );
 				$getarray =  (strlen($REQUEST_URI) > strlen($PHP_SELF)) ? $REQUEST_URI : $PHP_SELF;
 			} else { $getarray = $REQUEST_URI;}
-			
+			if(strstr($getarray,'-') || strstr($getarray,'XDEBUG')) return NULL;
 			if ($getarray && filter_input ( INPUT_SERVER, 'REQUEST_URI' ) != filter_input ( INPUT_SERVER, 'SCRIPT_NAME' )) {
 				$check_reader = str_replace ( '.php', '', filter_input ( INPUT_SERVER, 'SCRIPT_NAME' ) );
-
 				$getarray = str_replace ( $check_reader, '', $getarray );
 				$getarray = str_replace ( array ('.php','.html','.htm'), NULL, $getarray );
 				$getarray = explode ( DEL_SEPARATOR , ltrim ( $getarray, DEL_SEPARATOR ) ); // array_reverse ( );
@@ -116,30 +115,6 @@ namespace yethrong\library {
 					$getvalue['c'] = implode(DEL_SEPARATOR,$getarray);
 				}
 				else $getvalue['c'] = $getarray[0];
-				/*
-					$getvalue = array ();
-					$check_init = 0;
-					$check_reader = NULL;
-					$gettemps = array ('c' => 0,'m' => 0,'v' => 0);
-					foreach ( $getarray as $var ) {
-						$check_init ++;
-						if (! empty ( $check_reader )) {
-							$gettemps [$check_reader] = 1;
-							$getvalue [$check_reader] = $var;
-							$check_reader = NULL;
-						} else if (isset ( $gettemps [$var] )) {
-							$check_reader = $var;
-						} else {
-							$arr_var = $gettemps;
-							$arr_var = array_search ( 0, $arr_var );
-							if ($arr_var) {
-								$gettemps [$arr_var] = 1;
-								$getvalue [$arr_var] = $var;
-							} else {
-								$getvalue ['param'] [] = $var;
-							}
-						}
-					}*/
 				$getarray = $getvalue;
 			} else {
 				$getarray = NULL;
@@ -159,9 +134,9 @@ namespace yethrong\library {
 		}
 		private static function checkEmpty(&$getarray) {
 			if (empty ( $getarray ))         $getarray = array ();
-			if (! isset ( $getarray ['c'] ) || $getarray ['c'] == '')    $getarray ['c'] = self::$control;
+			if (! isset ( $getarray ['c'] ) || $getarray ['c'] == '') $getarray ['c'] = self::$control;
 			if (! isset ( $getarray ['m'] ) || $getarray ['m'] == '') $getarray ['m'] = self::$models;
-			if (! isset ( $getarray ['v'] ) || $getarray ['v'] == '')    $getarray ['v'] = self::$views;
+			if (! isset ( $getarray ['v'] ) || $getarray ['v'] == '') $getarray ['v'] = self::$views;
 		}
 		public static function getAppsPath(int $urls_type = 3, $default = NULL) {
 			if (self::reQuest ( $_SERVER ['HTTP_HOST'] )) {
